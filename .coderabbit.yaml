@@ -14,8 +14,8 @@ chat:
   auto_reply: true
 
 path_filters:
-  - backend/**
-  - frontend/**
+  - server/**
+  - client/**
 
 ignore:
   - node_modules/**
