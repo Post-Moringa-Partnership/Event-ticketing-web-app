@@ -1,0 +1,30 @@
+reviews:
+  profile: strict
+  high_level_summary: true
+  review_status: true
+  request_changes_workflow: true
+  collapse_walkthrough: false
+
+  auto_title: true
+  auto_description: true
+
+  suggested_reviewers: true
+  poem: false
+
+chat:
+  auto_reply: true
+
+path_filters:
+  - backend/**
+  - frontend/**
+
+ignore:
+  - node_modules/**
+  - venv/**
+  - .venv/**
+  - migrations/**
+  - dist/**
+  - build/**
+  - coverage/**
+  - package-lock.json
+  - yarn.lock
