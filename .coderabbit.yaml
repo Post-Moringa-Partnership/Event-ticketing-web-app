@@ -5,8 +5,7 @@ reviews:
   request_changes_workflow: true
   collapse_walkthrough: false
 
-  auto_title: true
-  auto_description: true
+  auto_title_placeholder: true
 
   suggested_reviewers: true
   poem: false
